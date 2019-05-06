@@ -1,0 +1,45 @@
+/*response websiite header*/
+
+
+@media screen and (max-width: 650px){
+	
+
+	.container-ul-menu{
+		display: block;
+		position: fixed;
+		background: #e92d45;
+		padding: 0;
+		top: 70px;
+		left: -1000px;
+		width: 100%;
+		height: 100%;
+		transition: all 0.7s;
+		box-shadow: 0 1px 8px 0 rgba(0,0,0,0.3);
+		z-index: -1;
+	}
+
+	.remove{
+		left:0;
+	}
+
+	.icomenucito{
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-size: 35px;
+		margin: 15px 20px;
+		display: block;
+		cursor: pointer;
+	}
+
+	.item-menu a{
+		color: white;
+		text-align: center;
+		font-size: 21px;
+	}
+
+	.sub-img-responsive{
+		display: block;
+		margin: 35px 0;
+	}
+}
